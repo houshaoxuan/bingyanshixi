@@ -1,0 +1,47 @@
+html{
+	height: 100%
+}
+
+body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-color: #E5E7E9;
+	padding: 1% 1%;
+}
+
+header:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+#left{
+  float: left;
+  width: 30px;
+}
+
+#left2{
+	vertical-align: middle;
+	float: left;
+	margin-top: 3px; 
+  margin-left: 5px;
+  height: 30px;
+  font-weight: bold;
+}
+
+#right{
+	float: right;
+	width: 40px;
+	height: 30px;
+}
+
+.name{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
