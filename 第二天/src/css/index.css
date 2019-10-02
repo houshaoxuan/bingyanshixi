@@ -1,0 +1,126 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #F8F9F9;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#header{
+  background-color: #E5E7E9;
+  overflow: hidden;
+  padding: 2% 1%;
+  flex: 0 0 auto;
+}
+
+#name{
+  width: 15%;
+  height: 15%;
+  float: left;
+}
+
+#name>p{
+  margin: 0px;
+  padding: 0px;
+}
+
+#search{
+  width: 25%;
+  height: 25%;
+  float: right;
+}
+#mo{
+  float:right;
+  position: relative;
+  text-align: right;
+}
+
+#se{
+  text-align: right;
+}
+
+#container{
+  clear: left;
+  display: table;
+  background-color: #F8F9F9;
+  flex: 1 0 auto;
+}
+
+.tablerow{
+  display: table-row;
+}
+
+.cell1{
+  display: table-cell;
+  width: 17%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.cell1>img{
+  width: 50%;
+  border-radius: 5px;
+}
+
+.cell2{
+  display: table-cell;
+  vertical-align: top;
+  border-bottom: 0.1px solid #E5E7E9;
+}
+
+.who{
+  display: inline;
+  width: 30%;
+  font-size: 90%;
+  margin: 0;
+  padding: 0%;
+}
+
+.time{
+  float: right;
+  margin: 1% 1% 0 0;
+  padding: 0;
+  font-size: 60%;
+  color: #ABB2B9;
+}
+
+.message{
+  color: #ABB2B9;
+  font-size: 70%;
+  margin: 3.2% 0;
+  background-color: #FDFEFE;
+
+}
+
+.ftable{
+  position: absolute;
+  bottom: 0;
+  background-color: #F4F6F7;
+  height: 46px;
+}
+
+.ftablerow{
+  display: table-row;
+}
+
+.ftablecell{
+  width: 25%;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+
+.ftablecell>img{
+  width: 40%;
+}
