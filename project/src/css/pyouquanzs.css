@@ -1,0 +1,55 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#back{
+  width: 6vw;
+  margin: 4vw 0 0 3vw; 
+}
+
+#camera{
+  width: 6vw;
+  margin: 4vw 3vw 0 0; 
+}
+
+#top{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+header{
+  height: 35vh;
+  background-image: url(../img/headback.jpg);
+  background-size: cover;
+}
+
+aside{
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  top: 28vh;
+  right: 4vw;
+}
+
+#name{
+  margin: auto 5vw;
+  color: white;
+  font-size: 4vw;
+}
+
+#avatar{
+  border-radius: 3vw;
+  width: 17vw;
+  height: 17vw;
+}
