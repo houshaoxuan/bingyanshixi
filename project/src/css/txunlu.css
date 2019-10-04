@@ -39,7 +39,6 @@ header{
 }
 
 .section{
-  flex-grow: 1;
   margin-top: 12vw;
   display: flex;
   flex-direction: column;

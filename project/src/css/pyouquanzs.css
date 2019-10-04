@@ -9,6 +9,7 @@ body{
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #F4F6F6;
 }
 
 #back{
@@ -53,3 +54,64 @@ aside{
   width: 17vw;
   height: 17vw;
 }
+
+section{
+  margin-top: 5vh;
+}
+
+.avatar2{
+  border-radius: 50%;
+  width: 12vw;
+  height: 12vw;
+  margin: 3vw;
+}
+
+.right{
+  flex-grow: 1;
+}
+
+.nickname{
+  font-size: 4vw;
+  color: #5DADE2;
+  margin-bottom: 0.5vh;
+}
+
+.content{
+  margin: 0 0 2vh;
+  font-size: 4vw;
+  margin-bottom: 1vh;
+}
+
+.picture{
+  width: 50vw;
+}
+
+.time{
+  font-size: 2.7vw;
+  color: #A6ACAF;
+}
+
+.comment{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 3vw;
+}
+
+.like{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 3vw;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3vh;
+}
+
+.message{
+  display: flex;
+  border-bottom: 0.2vw solid #E5E7E9;
+}
+
