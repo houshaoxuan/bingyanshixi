@@ -1,0 +1,183 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: #E5E7E9;
+}
+
+header{
+	position: fixed;
+	display: flex;
+	width: 100vw;
+	padding: 2vw 1vw;  
+	align-items: center;
+	background-color: #E5E7E9;
+	border-bottom: 0.5px solid #D5DBDB;
+}
+
+.hp{
+	width: 8vw;
+	height: 8vw;
+	margin: auto 0;
+}
+
+header>p{
+	font-weight: bold;
+	margin: auto 0;
+	font-size: 3.5vw;
+
+}
+
+.search{
+	margin-left: 48vw;
+	width: 6vw;
+	height: 6vw;
+ 
+}
+
+.list{
+	margin-left: 8vw;
+	width: 7vw;
+	height: 8vw;
+}
+
+#header{
+	color: #B2BABB;
+	font-size: 3.5vw;
+	margin: 14vw 0 2vw 2vw;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper{
+	width: 100%;
+	height: 21vw;
+	overflow: hidden;
+	display: flex;
+	margin: 0% 0%;
+	align-items: center;
+}
+
+.section{
+	margin-top: 3vw;
+	display: flex;
+	overflow-x: auto;
+}
+
+.d{
+	flex: none;
+	margin: 0 6.5vw 0 6.5vw;
+	background-color: white;
+	width: 12vw;
+	height: 12vw;
+	border-radius: 50%;
+
+}
+
+.na{
+	text-align: center;
+	margin: auto;
+	color: #B2BABB;
+	width: 12vw;
+	height: 10vw;
+	font-size: 3vw;
+}
+
+.section2{
+	display: flex;
+	flex-direction: column;
+	margin: 0 2% 2%;
+	background-color: white;
+	border-radius: 3%;
+}
+
+.message1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.front{
+	margin: 2%;
+	width: 9%;
+	border-radius: 50%;
+}
+
+.call{
+	font-size: 4vw;
+	font-weight: bold;
+
+}
+
+.time{
+	font-size: 3vw;
+	margin-left: 50%;
+	margin-right: 3%;
+	color: #B2BABB;
+}
+
+.message2{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.5px solid #F2F3F4;
+}
+
+.intro{
+	font-family: sans-serif;
+	font-size: 4.5vw;
+	text-align: left;
+	height: 100%;
+	margin: auto 2%;
+}
+
+.behind{
+	width: 15%;
+	margin: 2%;
+}
+
+.message3,.message4{
+	display: flex;
+	justify-content: space-between;
+	margin: 2%;
+}
+
+.message4{
+	justify-content: flex-end;
+}
+
+.more{
+	font-size: 3vw;
+	color: #3498DB;
+	margin: auto 0;
+}
+
+.underarrow{
+	margin: 1%;
+	width: 5%;
+}
+
+.section3{
+	height: 15%;
+
+}
+
+.separate{
+	text-align: center;
+	font-size: 3.5vw;
+	color: #B2BABB;
+}
+
+.friend{
+	font-size: 3vw;
+	text-align: right;
+	color: #B2BABB;
+}
