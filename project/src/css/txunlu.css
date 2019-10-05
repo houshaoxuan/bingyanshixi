@@ -113,16 +113,22 @@ footer{
 }
 
 #right{
+  margin: 0;
   position: fixed;
   right: 2vw;
-  top: 15vh;
-  bottom: 25vh;
+  top: 7vh;
+  bottom: 10vh;
 }
 
 #aside{
-  color: #626567;
-  font-size: 3vw;
+  margin: 0;
+  color: #B3B6B7;
+  font-size: 2.3vh;
   word-wrap: break-word;
-  width: 2vw;
+  width: 2vh;
 }
 
+p:target{
+   padding-top:7vh;
+   margin-top: -6vh;
+}

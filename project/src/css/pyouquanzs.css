@@ -115,3 +115,8 @@ section{
   border-bottom: 0.2vw solid #E5E7E9;
 }
 
+.button{
+  text-align: center;
+  font-size: 3.4vw;
+  color: #5DADE2;
+}
