@@ -1,0 +1,87 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+header{
+  margin: 2vw 2vw 1vw 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#back{
+  width: 8vw;
+}
+
+button{
+  width: 12vw;
+  font-size: 4vw;
+  background-color: #58D68D;
+  border: none;
+  color: white;
+  border-radius: 10%;
+  padding: 1vw 2vw;
+}
+
+textarea{
+  margin-left: 2vw;
+  margin-top: 3vh;
+  width: 96vw;
+  height: 25vw;
+  border: none;
+  font-size: 4vw;
+}
+
+#photo{
+  padding: 10vw;
+  width: 12vw;
+  background-color: #ECF0F1;
+  margin-bottom: 5vh;
+}
+
+#pho{
+  border-bottom: 0.2vw solid #E5E7E9;
+  margin: 0 4vw 0 4vw;
+}
+
+.setting{
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+}
+
+.picture{
+  width: 6vw;
+  margin-right: 2vw;
+}
+
+.content{
+  font-size: 4vw;
+  border-bottom: 0.2vw solid #E5E7E9;
+  flex-grow: 1;
+  padding: 1vh 0;
+
+}
+
+.behind{
+  width: 6vw;
+}
+
+#who{
+  color: #AAB7B8;
+  font-size: 3vw;
+}
+
+#share{
+  width: 4vw;
+  margin-top: 1vh;
+  margin-left: 5vw;
+}

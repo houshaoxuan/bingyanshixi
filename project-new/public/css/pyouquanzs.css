@@ -1,0 +1,122 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F6F6;
+}
+
+#back{
+  width: 6vw;
+  margin: 4vw 0 0 3vw; 
+}
+
+#camera{
+  width: 6vw;
+  margin: 4vw 3vw 0 0; 
+}
+
+#top{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+header{
+  height: 35vh;
+  background-image: url(../img/headback.jpg);
+  background-size: cover;
+}
+
+aside{
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  top: 28vh;
+  right: 4vw;
+}
+
+#name{
+  margin: auto 5vw;
+  color: white;
+  font-size: 4vw;
+}
+
+#avatar{
+  border-radius: 3vw;
+  width: 17vw;
+  height: 17vw;
+}
+
+section{
+  margin-top: 5vh;
+}
+
+.avatar2{
+  border-radius: 50%;
+  width: 12vw;
+  height: 12vw;
+  margin: 3vw;
+}
+
+.right{
+  flex-grow: 1;
+}
+
+.nickname{
+  font-size: 4vw;
+  color: #5DADE2;
+  margin-bottom: 0.5vh;
+}
+
+.content{
+  margin: 0 0 2vh;
+  font-size: 4vw;
+  margin-bottom: 1vh;
+}
+
+.picture{
+  width: 50vw;
+}
+
+.time{
+  font-size: 2.7vw;
+  color: #A6ACAF;
+}
+
+.comment{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 3vw;
+}
+
+.like{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 3vw;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3vh;
+}
+
+.message{
+  display: flex;
+  border-bottom: 0.2vw solid #E5E7E9;
+}
+
+.button{
+  text-align: center;
+  font-size: 3.4vw;
+  color: #5DADE2;
+}
